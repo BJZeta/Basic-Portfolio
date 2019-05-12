@@ -1,11 +1,36 @@
-/* h1 {
-    background-color: #4aaaa5; 
+/******************** Colors ********************/
+
+h1 {
+    background-color: #4aaaa5;
+    color: #fff;
+    width: 12.5%;
+    padding: 16px;
+    position: relative;
+    left: 20px;
+
 }
 
 h2 {
     color: #4aaaa5;
-} */
+}
 
 body {
-    background-image: url(assets/images/fishnets-and-hearts.png);
+    background-image: url(../images/fishnets-and-hearts.png);
+    background-repeat: repeat;
 }
+
+p, li {
+    color: #777777;
+}
+
+header {
+    background-color: #ffffff;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #ccc; 
+}
+
+.main-content {
+    background-color: #fff;
+}
+
