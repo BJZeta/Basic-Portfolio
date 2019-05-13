@@ -15,30 +15,6 @@ h1 {
 
 }
 
-h2 {
-    color: #4aaaa5;
-}
-
-body {
-    background-image: url(../images/fishnets-and-hearts.png);
-    background-repeat: repeat;
-    margin: 0;
-}
-
-p, li {
-    color: #777777;
-}
-
-header {
-    width: 100%;
-    background-color: #ffffff;
-    border-width: 0 0 1px 0;
-    border-style: solid;
-    border-color: #ccc;
-    display: inline-block;
-    
-}
-
 nav {
     width: 60%;
     float: right;
@@ -63,6 +39,31 @@ li {
     float: right;
 }
 
+h2 {
+    color: #4aaaa5;
+}
+
+body {
+    background-image: url(../images/fishnets-and-hearts.png);
+    background-repeat: repeat;
+    margin: 0;
+    height: 100%;
+}
+
+p, li {
+    color: #777777;
+}
+
+header {
+    width: 100%;
+    background-color: #ffffff;
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #ccc;
+    display: inline-block;
+    
+}
+
 .main-content {
     background-color: #fff;
 }
@@ -75,6 +76,8 @@ footer {
     height: 40px;
     text-align: center;
     bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 
 footer p {
@@ -82,3 +85,10 @@ footer p {
     font-size: 12px;
 }
 
+
+/******************************************* About Me Page *********************/
+
+.main-content {
+    width: 960px;
+    margin: 0 auto;
+}
