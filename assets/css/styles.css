@@ -201,6 +201,10 @@ input[type="submit"] {
     background-repeat: no-repeat;
 }
 
+.portfolio-items:hover {
+    opacity: .8;
+}
+
 .portfolio-items h3 {
     margin-top: 75px;
     background-color: #4aaaa5;
