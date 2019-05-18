@@ -4,7 +4,7 @@ h1 {
     background-color: #4aaaa5;
     color: #fff;
     width: 25%;
-    padding: 20px 10px;
+    padding: 10px 10px 0 10px;
     position: relative;
     float: left;
     clear: right;
@@ -19,7 +19,7 @@ nav {
     width: 60%;
     float: right;
     position: inherit;
-    margin-top: 15px;
+    /* margin-top: 15px; */
 
 }
 
@@ -61,7 +61,6 @@ a:hover {
     color: #ccc;
 }
 
-/************************************* link colors *************/
 
 h2 {
     color: #4aaaa5;
@@ -80,12 +79,14 @@ p, li, #contact-info {
 
 header {
     width: 100%;
+    height: 60px;
     background-color: #ffffff;
     border-width: 0 0 1px 0;
     border-style: solid;
     border-color: #ccc;
     display: inline-block;
     margin-bottom: 20px;
+    overflow: auto;
     
 }
 
@@ -98,7 +99,7 @@ footer {
     border-width: 6px 0 0 0;
     border-style: solid;
     border-color: #4aaaa5;
-    height: 40px;
+    height: 30px;
     text-align: center;
     bottom: 0;
     position: fixed;
@@ -107,7 +108,7 @@ footer {
 
 footer p {
     color: #fff;
-    font-size: 12px;
+    font-size: 8px;
 }
 
 /******************************************* Fonts *****************************/
@@ -177,4 +178,10 @@ input[type="submit"] {
 
 #contact-info {
     width: 780px
+}
+
+/******************************************* Portfolio Page *********************/
+
+#portfolio-page {
+    width: 780px;
 }
