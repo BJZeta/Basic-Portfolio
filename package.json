@@ -1,0 +1,22 @@
+{
+  "name": "basic-portfolio",
+  "version": "1.0.0",
+  "description": "A basic portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BJZeta/Basic-Portfolio.git"
+  },
+  "author": "Brandon Unzueta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BJZeta/Basic-Portfolio/issues"
+  },
+  "homepage": "https://github.com/BJZeta/Basic-Portfolio#readme",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
