@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "A basic portfolio",
   "main": "index.js",
+  "homepage": "https://bjzeta.github.io/Basic-Portfolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist/"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
     "url": "https://github.com/BJZeta/Basic-Portfolio/issues"
   },
   "dependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.14.1"
   }
 }
