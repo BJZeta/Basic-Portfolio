@@ -4,7 +4,8 @@
   "description": "A basic portfolio",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,6 @@
   "bugs": {
     "url": "https://github.com/BJZeta/Basic-Portfolio/issues"
   },
-  "homepage": "https://github.com/BJZeta/Basic-Portfolio#readme",
   "dependencies": {
     "node-sass": "^4.14.1"
   }
