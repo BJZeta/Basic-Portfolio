@@ -71,6 +71,8 @@ main {
   }
 }
 
+//ABOUT Page
+
 .about-info {
   display: grid;
   grid-gap: 30px;
@@ -111,10 +113,51 @@ main {
   }
 }
 
+//MY PROJECTS Page
+.projects {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+
+  img {
+    width: 100%;
+    border: 3px #fff solid;
+
+    &:hover {
+      opacity: 0.5;
+      @include easeOut;
+    }
+  }
+}
+
+//Buttons
+.btn {
+  display: block;
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 10px;
+  margin-bottom: 0.3rem;
+  &:hover {
+    background: $secondary-color;
+    color: #000;
+  }
+}
+
+.btn-dark {
+  @extend .btn;
+  background: darken($primary-color, 15);
+}
+
+.btn-light {
+  @extend .btn;
+  background: lighten($primary-color, 35);
+  color: #000;
+}
+
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: darken($primary-color, 10);
+  background: darken($primary-color, 15);
   height: 60px;
 }
 
